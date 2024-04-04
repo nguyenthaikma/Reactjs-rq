@@ -1,0 +1,54 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "inlineSources": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@queries/*": ["src/queries/*"],
+        "@models/*": ["src/models/*"],
+        "@config/*":["src/config/*"],
+        "@hooks/*":["src/hooks/*"],
+        "@libs/*":["src/libs/*"],
+        "@pages/*": ["pages/*"],
+        "@src/*": ["src/*"],
+      },
+      "preserveConstEnums": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "target": "es5",
+      "typeRoots": [
+        "./node_modules/@types"
+      ]
+    },
+    "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+      ".next"
+    ]
+  }
